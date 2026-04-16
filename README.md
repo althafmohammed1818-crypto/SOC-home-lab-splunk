@@ -33,6 +33,15 @@ Use Splunk Processing Language (SPL) to analyze:
 
 
 
+## 🔐 SSH Log Monitoring Dashboard
+
+![SSH Dashboard](screenshots/ssh-dashboard.png)
+
+### Failed Logins by Username
+![Failed Logins](screenshots/failed-logins.png)
+
+### Brute Force IP Addresses
+![Bruteforce IPs](screenshots/bruteforce-ips.png)
 
 
 
