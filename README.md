@@ -31,8 +31,10 @@ Use Splunk Processing Language (SPL) to analyze:
 -index=ssh_logs | stats count as "total ssh events" 
 -index=ssh_logs | stats count as "successful ssh events" 
 -index=ssh_logs | stats count as "failed ssh events" 
-```spl
+\\`\``
 
+
+![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/834706909cd5d44ec88d9868afe352e80afbfd07/Screenshot%202026-04-13%20115234.png)
 
 
 
