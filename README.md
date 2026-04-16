@@ -25,16 +25,23 @@ The dashboard provides visibility into login attempts, authentication patterns, 
 - Assign a source type (e.g.,`ssh_logs`).
 - Save and index the data.
 
+  
+![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/834706909cd5d44ec88d9868afe352e80afbfd07/Screenshot%202026-04-13%20115234.png)
+![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/e4917a8ec260c8f7a5c8ccacd806ac643aaa74b6/Screenshot%202026-04-13%20115247%20-%20Copy.png)
+![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/e4917a8ec260c8f7a5c8ccacd806ac643aaa74b6/Screenshot%202026-04-15%20233530%20-%20Copy.png)
+![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/e4917a8ec260c8f7a5c8ccacd806ac643aaa74b6/Screenshot%202026-04-15%20233627%20-%20Copy.png)
+![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/e4917a8ec260c8f7a5c8ccacd806ac643aaa74b6/Screenshot%202026-04-15%20233731%20-%20Copy.png)
+
 ### 4. Create SPL Queries
 Use Splunk Processing Language (SPL) to analyze:
-'''spl
-ndex=ssh_logs | stats count as "total ssh events" 
-index=ssh_logs | stats count as "successful ssh events" 
-index=ssh_logs | stats count as "failed ssh events" 
+
+```spl
+-index=ssh_logs | stats count as "total ssh events" 
+-index=ssh_logs | stats count as "successful ssh events" 
+-index=ssh_logs | stats count as "failed ssh events" 
 
 
 
-![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/834706909cd5d44ec88d9868afe352e80afbfd07/Screenshot%202026-04-13%20115234.png)
 
 
 
