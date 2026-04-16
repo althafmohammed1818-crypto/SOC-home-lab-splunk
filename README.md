@@ -36,9 +36,16 @@ The dashboard provides visibility into login attempts, authentication patterns, 
 Use Splunk Processing Language (SPL) to analyze:
 
 ```spl
--index=ssh_logs | stats count as "total ssh events" 
--index=ssh_logs | stats count as "successful ssh events" 
--index=ssh_logs | stats count as "failed ssh events" 
+index=ssh_logs | stats count as "total ssh events" 
+index=ssh_logs | stats count as "successful ssh events" 
+index=ssh_logs | stats count as "failed ssh events"
+
+for usernames
+index=ssh_logs | top username
+
+find the most frequent values of a field
+index=ssh_logs | top id.orig_h
+index=ssh_logs | stats count by id.orig_h | sort -count
 
 
 
