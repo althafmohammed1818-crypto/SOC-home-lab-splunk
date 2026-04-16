@@ -42,6 +42,19 @@ Use Splunk Processing Language (SPL) to analyze:
 <img width="1891" height="982" alt="Screenshot 2026-04-13 115247" src="https://github.com/user-attachments/assets/14529ead-8131-45cc-b207-db7375b539c3" />
 <img width="1913" height="1016" alt="Screenshot 2026-04-13 115234" src="https://github.com/user-attachments/assets/e94399ab-ca09-4f28-98cd-f46ea8bae8db" />
 
+## 🔐 SSH Log Monitoring Dashboard
+
+![SSH Dashboard](https://github.com/user-attachments/assets/d4ecc073-4188-42c9-b424-082061e8ed4a)
+
+![Failed Logins](https://github.com/user-attachments/assets/a1abba85-6aa8-4918-bcf3-43283f547377)
+
+![Bruteforce IPs](https://github.com/user-attachments/assets/7e3b6a9a-6daa-43ec-ad04-75929492a62c)
+
+![Dashboard List](https://github.com/user-attachments/assets/14529ead-8131-45cc-b207-db7375b539c3)
+
+![SSH Events](https://github.com/user-attachments/assets/e94399ab-ca09-4f28-98cd-f46ea8bae8db)
+
+
 
 
 
