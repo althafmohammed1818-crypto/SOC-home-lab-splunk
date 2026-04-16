@@ -39,7 +39,7 @@ Use Splunk Processing Language (SPL) to analyze:
 ## 🔐 SSH Log Monitoring Dashboard
 
 ![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/main/screenshots/Screenshot-2026-04-13-115234.png)
-![image alt](https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/7883a8742e089f1e154e76e78e7738f2d2d98e73/Screenshot%202026-04-13%20115234.png)
+(https://github.com/althafmohammed1818-crypto/SOC-home-lab-splunk/blob/7883a8742e089f1e154e76e78e7738f2d2d98e73/Screenshot%202026-04-13%20115234.png)
 
 
 
