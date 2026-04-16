@@ -44,7 +44,7 @@ Use Splunk Processing Language (SPL) to analyze:
 
 ## 🔐 SSH Log Monitoring Dashboard
 
-![Screenshot 2025-05-20 102945](https://github.com/user-attachments/assets/c71a50e9-2e76-4046-a109-0f21e4b4d040)
+![Screenshot 2026-04-15 233731](https://github.com/user-attachments/assets/d4ecc073-4188-42c9-b424-082061e8ed4a)
 
 
 
