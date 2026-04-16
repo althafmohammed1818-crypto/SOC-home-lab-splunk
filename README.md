@@ -27,7 +27,7 @@ The dashboard provides visibility into login attempts, authentication patterns, 
 
 ### 4. Create SPL Queries
 Use Splunk Processing Language (SPL) to analyze:
-```spl
+
 -index=ssh_logs | stats count as "total ssh events" 
 -index=ssh_logs | stats count as "successful ssh events" 
 -index=ssh_logs | stats count as "failed ssh events" 
