@@ -34,7 +34,7 @@ Use Splunk Processing Language (SPL) to analyze:
 
 
 ## 🔐 SSH Log Monitoring Dashboard
-(screenshots/Screenshot 2026-04-15 233731.png)
+(C:\Users\Asus\OneDrive\Pictures\Screenshots/Screenshot 2026-04-15 233731.png)
 
 ### Failed Logins by Username
 ![Failed Logins](screenshots/failed-logins.png)
