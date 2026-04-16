@@ -21,15 +21,18 @@ The dashboard provides visibility into login attempts, authentication patterns, 
 ### 3. Ingest Logs into Splunk
 - Navigate to **Settings → Add Data → Upload Files**.
 - Upload the extracted SSH log files.
-- Assign a source type (e.g., `syslog` or custom `ssh_logs`).
+- Assign a source type (e.g.,`ssh_logs`).
 - Save and index the data.
 
 ### 4. Create SPL Queries
 Use Splunk Processing Language (SPL) to analyze:
-- **Successful vs Failed Logins**  
-  ```spl
-  index=ssh_logs "Accepted password" OR "Failed password"
-  | stats count by action
+
+index=ssh_logs | stats count as "total ssh events" 
+index=ssh_logs | stats count as "successful ssh events" 
+index=ssh_logs | stats count as "failed ssh events" 
+
+
+
 
 
 
